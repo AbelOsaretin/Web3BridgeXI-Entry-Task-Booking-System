@@ -33,16 +33,16 @@ c. JavaScript.
 ## 4. Installation
 
 a. Clone the repository:
-#### `git clone https://github.com/AbelOsaretin/Web3BridgeXI-Entry-Task-Booking-System.git`
+### `git clone https://github.com/AbelOsaretin/Web3BridgeXI-Entry-Task-Booking-System.git`
 
 b. Navigate to the project directory:
-#### `cd Web3BridgeXI-Entry-Task-Booking-System`
+### `cd Web3BridgeXI-Entry-Task-Booking-System`
 
 c. Install the dependencies:
-#### `yarn`
+### `yarn`
 
 d. Start the development server:
-#### `yarn start`
+### `yarn start`
 
 ## 5. Usage
 
