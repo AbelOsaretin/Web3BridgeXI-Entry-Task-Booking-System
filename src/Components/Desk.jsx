@@ -1,6 +1,6 @@
 import React from "react";
 
-function Desk({ desk }) {
+export function Desk({ desk }) {
   return (
     <div className={`desk ${desk.booked ? "booked" : ""}`}>
       {desk.type} desk {desk.id} - {desk.booked ? "Booked" : "Available"}
@@ -8,4 +8,4 @@ function Desk({ desk }) {
   );
 }
 
-export default Desk;
+// export default Desk;

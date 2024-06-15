@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,50 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  text-align: center;
+}
+
+.desk-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.desk {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+  width: 100px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.desk.booked {
+  background-color: #ffdddd;
+}
+
+form {
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+select,
+input {
+  margin-left: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.dashboard {
+  margin-top: 20px;
 }
