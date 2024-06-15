@@ -1,0 +1,28 @@
+.desk {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 120px;
+  text-align: center;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.desk.available {
+  background-color: #e0f7fa;
+  cursor: pointer;
+}
+
+.desk.booked {
+  background-color: #ffebee;
+  cursor: not-allowed;
+}
+
+.desk:hover.available {
+  background-color: #b2ebf2;
+  transform: scale(1.05);
+}
+
+.desk:hover.booked {
+  background-color: #ffcdd2;
+}

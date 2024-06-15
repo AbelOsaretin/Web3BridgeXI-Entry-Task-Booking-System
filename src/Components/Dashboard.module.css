@@ -1,0 +1,48 @@
+.dashboard {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+  margin-bottom: 20px;
+}
+
+.dashboard .filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard .filters label {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.dashboard .filters input {
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dashboard .revenue {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard .revenue p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.dashboard .revenue .total {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}

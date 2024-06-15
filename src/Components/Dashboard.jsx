@@ -23,7 +23,9 @@
 
 // export default Dashboard;
 
+//
 import React, { useState } from "react";
+import styles from "./Dashboard.module.css";
 
 export function Dashboard({ bookings = [] }) {
   const [startDate, setStartDate] = useState("");
@@ -47,9 +49,9 @@ export function Dashboard({ bookings = [] }) {
   );
 
   return (
-    <div className="dashboard">
+    <div className={styles.dashboard}>
       <h2>Revenue Dashboard</h2>
-      <div>
+      <div className={styles.filters}>
         <label>
           Start Date:
           <input
@@ -67,19 +69,21 @@ export function Dashboard({ bookings = [] }) {
           />
         </label>
       </div>
-      <p>Basic: ${revenue.basic.toFixed(2)}</p>
-      <p>Premium: ${revenue.premium.toFixed(2)}</p>
-      <p>Executive: ${revenue.executive.toFixed(2)}</p>
-      <p>Team: ${revenue.team.toFixed(2)}</p>
-      <p>
-        Total: $
-        {(
-          revenue.basic +
-          revenue.premium +
-          revenue.executive +
-          revenue.team
-        ).toFixed(2)}
-      </p>
+      <div className={styles.revenue}>
+        <p>Basic: ${revenue.basic.toFixed(2)}</p>
+        <p>Premium: ${revenue.premium.toFixed(2)}</p>
+        <p>Executive: ${revenue.executive.toFixed(2)}</p>
+        <p>Team: ${revenue.team.toFixed(2)}</p>
+        <p className={styles.total}>
+          Total: $
+          {(
+            revenue.basic +
+            revenue.premium +
+            revenue.executive +
+            revenue.team
+          ).toFixed(2)}
+        </p>
+      </div>
     </div>
   );
 }
