@@ -1,15 +1,22 @@
-# Getting Started with Create React App
+# Co-working Space Booking System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Preview Site](https://web3-bridge-xi-entry-task-booking-system.vercel.app/).
 
-## Available Scripts
+## Table of Content.
 
-In the project directory, you can run:
+1. Introduction
+2. Features
+3. Technologies Used
+4. Installation
+5. Usage
+6. Components
+7. Styling
+8. Contributing
+9. License
 
-### `yarn start`
+### `1. Introduction`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Co-working Space Booking System is a web application designed to allow users to book desks in a co-working space. It supports booking for individual and team desks, with different pricing tiers for individual desks based on membership levels. The application also includes a dashboard to view revenue collected over a specified period of time.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
